@@ -33,7 +33,7 @@ public:
 
     Node(int value) { this->Value = value; }
     int difference() { return this->Left->height() - this->Right->height(); }
-    Node *nodeWithMimumValue() {
+    Node *minValueNode() {
         Node *cur;
         for (cur = this; cur->Left != nullptr; cur = cur->Left);
         return cur;
@@ -70,7 +70,7 @@ public:
         else if (root->Right == nullptr) {
             return root->Left;
         } else {
-            Node *temp = root->Right->nodeWithMimumValue();
+            Node *temp = root->Right->minValueNode();
             root->Value = temp->Value;
             root->Right = deleteNode(root->Right, temp->Value);
         }
