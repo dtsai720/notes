@@ -16,9 +16,9 @@ abs(RightHeight - LeftHeight) <= 1
 Left Right Rotate:
    P                         P                        P
    |                         |                        |
-   Z    X Left Rotate        Z                        Y
-  /     ------------>       /     Z Right Rotate     / \
- X                         Y      ------------->    X   Z
+   Z                         Z                        Y
+  /     X Left Rotate       /     Z Right Rotate     / \
+ X      ------------>      Y      ------------->    X   Z
   \                       /
    Y                     X
 
