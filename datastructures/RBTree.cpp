@@ -1,7 +1,7 @@
 #include <string>
 
 #define RED true;
-#define Black false;
+#define BLACK false;
 
 /*
 1. Each node is red or black.
@@ -19,15 +19,17 @@ public:
     bool Color;
     int Value;
     TreeNode *Left, *Right, *Parent;
-    TreeNode(int value) { this->Value = value; }
+    TreeNode(int value, bool color) {
+        this->Value = value;
+        this->Color = color;
+    }
 };
 
 
 class RedBlackTree {
 
 private:
-    TreeNode *Root, *Nil;
-
+    TreeNode *Root;
 public:
     void LeftRotate(TreeNode *x);
     void RightRotate(TreeNode *x);
