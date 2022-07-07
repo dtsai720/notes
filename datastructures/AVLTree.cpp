@@ -56,6 +56,7 @@ public:
     TreeNode *Balance(TreeNode *node);
     int Difference(TreeNode *node);
     void Show(TreeNode *root);
+    void Free(TreeNode *root);
 };
 
 inline TreeNode *AVLTree::LeftRotate(TreeNode *x) {
@@ -151,13 +152,21 @@ inline void AVLTree::Show(TreeNode *root) {
     }
 }
 
+inline void AVLTree::Free(TreeNode *root) {
+    if (root == nullptr) return;
+    this->Free(root->Left);
+    this->Free(root->Right);
+    delete(root);
+}
+
 TEST(TestAVLTree, AVLTree) {
     TreeNode *root = new TreeNode(0);
     AVLTree solution = AVLTree();
-    for (int i = 1; i < (1 << 4) - 1; i++)
+    for (int i = 1; i <= INT16_MAX; i++) {
         root = solution.InsertNode(root, i);
-    ASSERT_EQ(solution.Difference(root), 0);
-    delete(root);
+        ASSERT_TRUE(std::abs(solution.Difference(root)) <= 1);
+    }
+    solution.Free(root);
 }
 
 int main(int argc, char **argv) {
