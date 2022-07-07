@@ -32,6 +32,7 @@ Right Left Rotate:
  Y                            X
 
 */
+
 class TreeNode {
 
 public:
@@ -162,9 +163,10 @@ inline void AVLTree::Free(TreeNode *root) {
 TEST(TestAVLTree, AVLTree) {
     TreeNode *root = new TreeNode(0);
     AVLTree solution = AVLTree();
-    for (int i = 1; i <= INT16_MAX; i++) {
+    for (int i = 1; i <= INT8_MAX; i++) {
         root = solution.InsertNode(root, i);
-        ASSERT_TRUE(std::abs(solution.Difference(root)) <= 1);
+        const int difference = std::abs(solution.Difference(root));
+        ASSERT_TRUE(difference <= 1);
     }
     solution.Free(root);
 }
