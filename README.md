@@ -12,8 +12,8 @@
 - ***Exec Unit Test***
 
   ```sh
-  $ g++ fileName.cpp -lgtest -lpthread -o result.out
-  $ ./result.out
+  g++ fileName.cpp -lgtest -lpthread -o result.out
+  ./result.out
   ```
 
 - ***Link***

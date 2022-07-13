@@ -1,6 +1,7 @@
 #include <vector>
 #include <queue>
 #include <iostream>
+#include <gtest/gtest.h>
 
 struct TreeNode {
     int val;
@@ -13,10 +14,10 @@ struct TreeNode {
 
 class Solution {
 public:
-    std::vector<int> rightSideView(TreeNode* root);
+    std::vector<int> rightSideView(TreeNode *root);
 };
 
-std::vector<int> Solution::rightSideView(TreeNode* root) {
+std::vector<int> Solution::rightSideView(TreeNode *root) {
     std::vector<int> output;
     if (root == nullptr) return output;
     std::queue<TreeNode*> q;
@@ -42,7 +43,7 @@ void free(TreeNode *node) {
     delete node;
 }
 
-int main(int argc, char **argv) {
+TEST(TestRightSideViewSuite, TestRightSideViewNormal) {
     TreeNode *node = new TreeNode(1);
     TreeNode *cur = node;
     cur->left = new TreeNode(2);
@@ -51,10 +52,26 @@ int main(int argc, char **argv) {
     cur->right->right = new TreeNode(4);
 
     Solution solution = Solution();
-    auto result = solution.rightSideView(node);
-    for (int num: result) {
-        std::cout << num << std::endl;
-    }
+    std::vector<int> want{1, 3, 4};
+    std::vector<int> result = solution.rightSideView(node);
+
+    ASSERT_EQ(want.size(), result.size());
+    for (int i = 0; i < want.size(); i++)
+        EXPECT_EQ(want[i], result[i]);
     free(node);
-    return 0;
+}
+
+TEST(TestRightSideViewSuite, TestRightSideViewNullptr) {
+    Solution solution = Solution();
+    std::vector<int> want{};
+    std::vector<int> result = solution.rightSideView(nullptr);
+
+    ASSERT_EQ(want.size(), result.size());
+    for (int i = 0; i < want.size(); i++)
+        EXPECT_EQ(want[i], result[i]);
+}
+
+int main(int argc, char **argv) {
+    testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
 }

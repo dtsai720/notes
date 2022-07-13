@@ -1,6 +1,7 @@
 #include <vector>
 #include <queue>
 #include <iostream>
+#include <gtest/gtest.h>
 
 struct TreeNode {
     int val;
@@ -13,10 +14,10 @@ struct TreeNode {
 
 class Solution {
 public:
-    std::vector<std::vector<int>> levelOrder(TreeNode* root);
+    std::vector<std::vector<int>> levelOrder(TreeNode *root);
 };
 
-std::vector<std::vector<int>> Solution::levelOrder(TreeNode* root) {
+std::vector<std::vector<int>> Solution::levelOrder(TreeNode *root) {
     std::vector<std::vector<int>> output;
     if (root == nullptr) return output;
     std::queue<TreeNode*> q;
@@ -43,7 +44,7 @@ void free(TreeNode *node) {
     delete node;
 }
 
-int main(int argc, char **argv) {
+TEST(TestLevelOrder, TestLevelOrder) {
     TreeNode *node = new TreeNode(3);
     TreeNode *cur = node;
     cur->left = new TreeNode(9);
@@ -53,13 +54,30 @@ int main(int argc, char **argv) {
     cur->right = new TreeNode(7);
 
     Solution solution = Solution();
-    auto result = solution.levelOrder(node);
-    for (auto& nums: result) {
-        for (int num: nums) {
-            std::cout << num << std::endl;
-        }
-        std::cout << std::endl;
+    std::vector<std::vector<int>> want{{3},{9,20},{15,7}};
+    std::vector<std::vector<int>> result = solution.levelOrder(node);
+    ASSERT_EQ(want.size(), result.size());
+    for (int i = 0; i < want.size(); i++) {
+        ASSERT_EQ(want[i].size(), result[i].size());
+        for (int j = 0; j < want[i].size(); j++)
+            EXPECT_EQ(want[i][j], result[i][j]);
     }
     free(node);
-    return 0;
+}
+
+TEST(TestLevelOrder, TestLevelOrderNullptr) {
+    Solution solution = Solution();
+    std::vector<std::vector<int>> want{};
+    std::vector<std::vector<int>> result = solution.levelOrder(nullptr);
+    ASSERT_EQ(want.size(), result.size());
+    for (int i = 0; i < want.size(); i++) {
+        ASSERT_EQ(want[i].size(), result[i].size());
+        for (int j = 0; j < want[i].size(); j++)
+            EXPECT_EQ(want[i][j], result[i][j]);
+    }
+}
+
+int main(int argc, char **argv) {
+    testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
 }
