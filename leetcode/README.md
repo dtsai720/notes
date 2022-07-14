@@ -5,6 +5,7 @@
 - [Binary Tree](#binary-tree)
   - [Binary Tree Level Order Traversal](#binary-tree-level-order-traversal)
   - [Binary Tree Right Side View](#binary-tree-right-side-view)
+  - [Construct Binary Tree from Preorder and Inorder Traversal](#construct-binary-tree-from-preorder-and-inorder-traversal)
 
 ## **BackTrace**
 
@@ -24,3 +25,8 @@
 
 [Leetcode](https://leetcode.com/problems/binary-tree-right-side-view/)&nbsp;&nbsp;
 [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/0199.cpp)
+
+### ***Construct Binary Tree from Preorder and Inorder Traversal***
+
+[Leetcode](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)&nbsp;&nbsp;
+[Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/0105.cpp)
