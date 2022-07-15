@@ -10,7 +10,17 @@
 ## **Run Unit Test**
 
 ```sh
-> g++ fileName.cpp -lgtest -lpthread -o result.out && ./result.out
+$ g++ fileName.cpp -lgtest -lpthread -o result.out && ./result.out
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from TestSuiteName
+[ RUN      ] TestSuiteName.TestName
+[       OK ] TestSuiteName.TestName (0 ms)
+[----------] 1 test from TestSuiteName (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
 ```
 
 ## **Reference Link**

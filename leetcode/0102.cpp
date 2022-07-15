@@ -44,7 +44,7 @@ void free(TreeNode *node) {
     delete node;
 }
 
-TEST(TestLevelOrder, TestLevelOrder) {
+TEST(TestLevelOrderSuite, TestLevelOrder) {
     TreeNode *node = new TreeNode(3);
     TreeNode *cur = node;
     cur->left = new TreeNode(9);
@@ -65,7 +65,7 @@ TEST(TestLevelOrder, TestLevelOrder) {
     free(node);
 }
 
-TEST(TestLevelOrder, TestLevelOrderNullptr) {
+TEST(TestLevelOrderSuite, TestLevelOrderNullptr) {
     Solution solution = Solution();
     std::vector<std::vector<int>> want{};
     std::vector<std::vector<int>> result = solution.levelOrder(nullptr);
