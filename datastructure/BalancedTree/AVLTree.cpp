@@ -33,16 +33,16 @@ Right Left Rotate:
 
 */
 
-class TreeNode {
-
-public:
+struct TreeNode {
     int Value;
-    TreeNode *Left, *Right;
-    TreeNode(int value) { this->Value = value; }
+    TreeNode *Left;
+    TreeNode *Right;
+    TreeNode() : Value(0), Left(nullptr), Right(nullptr) {}
+    TreeNode(int x) : Value(x), Left(nullptr), Right(nullptr) {}
+    TreeNode(int x, TreeNode *Left, TreeNode *Right) : Value(x), Left(Left), Right(Right) {}
 };
 
 class AVLTree {
-
 private:
     int Height(TreeNode* node);
     TreeNode *LeftRotate(TreeNode *x);

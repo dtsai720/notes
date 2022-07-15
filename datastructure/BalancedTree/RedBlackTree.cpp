@@ -13,21 +13,17 @@
 
 */
 
-class TreeNode {
-
-public:
-    bool Color;
+struct TreeNode {
     int Value;
-    TreeNode *Left, *Right, *Parent;
-    TreeNode(int value, bool color) {
-        this->Value = value;
-        this->Color = color;
-    }
+    bool Color;
+    TreeNode *Left;
+    TreeNode *Right;
+    TreeNode() : Value(0), Left(nullptr), Right(nullptr), Color(false) {}
+    TreeNode(int x) : Value(x), Left(nullptr), Right(nullptr), Color(false) {}
+    TreeNode(int x, TreeNode *Left, TreeNode *Right) : Value(x), Left(Left), Right(Right), Color(false) {}
 };
 
-
 class RedBlackTree {
-
 private:
     TreeNode *Root;
 public:
