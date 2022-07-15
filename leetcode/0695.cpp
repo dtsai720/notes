@@ -33,7 +33,7 @@ int Solution::maxAreaOfIsland(std::vector<std::vector<int>> &grid) {
 
 TEST(TestMaxAreaOfIslandSuite, TestMaxAreaOfIsland) {
     Solution solution = Solution();
-    std::vector<std::vector<int>> grid{
+    std::vector<std::vector<int>> six{
         {0,0,1,0,0,0,0,1,0,0,0,0,0},
         {0,0,0,0,0,0,0,1,1,1,0,0,0},
         {0,1,1,0,1,0,0,0,0,0,0,0,0},
@@ -43,13 +43,10 @@ TEST(TestMaxAreaOfIslandSuite, TestMaxAreaOfIsland) {
         {0,0,0,0,0,0,0,1,1,1,0,0,0},
         {0,0,0,0,0,0,0,1,1,0,0,0,0},
     };
-    EXPECT_EQ(solution.maxAreaOfIsland(grid), 6);
-}
+    EXPECT_EQ(solution.maxAreaOfIsland(six), 6);
 
-TEST(TestMaxAreaOfIslandSuite, TestMaxAreaOfIslandZero) {
-    Solution solution = Solution();
-    std::vector<std::vector<int>> grid{{0,0,0,0,0,0,0,0}};
-    EXPECT_EQ(solution.maxAreaOfIsland(grid), 0);
+    std::vector<std::vector<int>> zero{{0,0,0,0,0,0,0,0}};
+    EXPECT_EQ(solution.maxAreaOfIsland(zero), 0);
 }
 
 int main(int argc, char **argv) {

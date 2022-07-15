@@ -29,16 +29,13 @@ inline bool Solution::makesquare(std::vector<int> &matchsticks) {
     return backtrace(matchsticks, arr, 0);
 }
 
-TEST(TestMakeSquareSuite, TestMakeSquarePass) {
-    std::vector<int> in{1,1,2,2,2};
+TEST(TestMakeSquareSuite, TestMakeSquare) {
+    std::vector<int> pass{1,1,2,2,2};
     Solution solution = Solution();
-    ASSERT_TRUE(solution.makesquare(in));
-}
+    EXPECT_TRUE(solution.makesquare(pass));
 
-TEST(TestMakeSquareSuite, TestMakeSquareFail) {
-    std::vector<int> in{3,3,3,3,4};
-    Solution solution = Solution();
-    ASSERT_FALSE(solution.makesquare(in));
+    std::vector<int> fail{3,3,3,3,4};
+    EXPECT_FALSE(solution.makesquare(fail));
 }
 
 int main(int argc, char **argv) {
