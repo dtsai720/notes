@@ -49,15 +49,12 @@ private:
     TreeNode *RightRotate(TreeNode *y);
     TreeNode *LeftRightRotate(TreeNode *node);
     TreeNode *RightLeftRotate(TreeNode *node);
-
+    TreeNode *Balance(TreeNode *node);
+    TreeNode *MinValueNode(TreeNode *root);
 public:
     TreeNode *InsertNode(TreeNode *root, int value);
     TreeNode *DeleteNode(TreeNode *root, int value);
-    TreeNode *MinValueNode(TreeNode *root);
-    TreeNode *Balance(TreeNode *node);
     int Difference(TreeNode *node);
-    void Show(TreeNode *root);
-    void Free(TreeNode *root);
 };
 
 inline TreeNode *AVLTree::LeftRotate(TreeNode *x) {
@@ -139,24 +136,22 @@ inline TreeNode *AVLTree::Balance(TreeNode *root) {
     return this->Difference(root->Right) > 0? this->LeftRightRotate(root): this->LeftRotate(root);
 }
 
-inline void AVLTree::Show(TreeNode *root) {
+void Show(TreeNode *root) {
     if (root == nullptr) return;
     std::queue<TreeNode*> q;
     q.push(root);
     while (!q.empty()) {
         TreeNode *node = q.front(); q.pop();
         std::cout << node->Value << std::endl;
-        if (node->Left != nullptr)
-            q.push(node->Left);
-        if (node->Right != nullptr)
-            q.push(node->Right);
+        if (node->Left != nullptr) q.push(node->Left);
+        if (node->Right != nullptr) q.push(node->Right);
     }
 }
 
-inline void AVLTree::Free(TreeNode *root) {
+void free(TreeNode *root) {
     if (root == nullptr) return;
-    this->Free(root->Left);
-    this->Free(root->Right);
+    free(root->Left);
+    free(root->Right);
     delete(root);
 }
 
@@ -168,7 +163,7 @@ TEST(TestAVLTree, AVLTree) {
         const int difference = std::abs(solution.Difference(root));
         ASSERT_TRUE(difference <= 1);
     }
-    solution.Free(root);
+    free(root);
 }
 
 int main(int argc, char **argv) {
