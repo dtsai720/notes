@@ -22,8 +22,3 @@ $ g++ fileName.cpp -lgtest -lpthread -o result.out && ./result.out
 [==========] 1 test from 1 test suite ran. (0 ms total)
 [  PASSED  ] 1 test.
 ```
-
-## **Reference Link**
-
-- [algorithm](https://github.com/williamfiset/Algorithms)
-- [awesome-go](https://github.com/avelino/awesome-go)

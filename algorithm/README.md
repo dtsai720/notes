@@ -5,4 +5,4 @@
 - Sort
 - String
 - Graph
-- DP
+- Dynamic Programing

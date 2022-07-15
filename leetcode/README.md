@@ -2,33 +2,33 @@
 
 ## **Content**
 
-- [DFS](#dfs)
-- [BackTrace](#backtrace)
+- [Depth First Search](#depth-first-search)
 - [Binary Tree](#binary-tree)
-- [DP](#dp)
+- [Backtracking](#backtracking)
+- [Dynamic Programing](#dynamic-programing)
 
-## **DFS**
+### **Depth First Search**
 
-|  Name   | LeetCode  | Solution |
-|  :-----| :----:  | :----: |
-| 1. Max Area of Island | [Leetcode](https://leetcode.com/problems/max-area-of-island/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/0695.cpp) |
+| Question | Solution |
+| :- | -: |
+| 1. [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/0695.cpp) |
 
-## **BackTrace**
+### **Binary Tree**
 
-|  Name   | LeetCode  | Solution |
-|  :-----| :----:  | :----: |
-| 1. Matchsticks to Square | [Leetcode](https://leetcode.com/problems/matchsticks-to-square/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/0473.cpp) |
+| Question | Solution |
+| :- | -: |
+| 1. [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/0102.cpp) |
+| 2. [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/0199.cpp) |
+| 3. [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/0105.cpp) |
 
-## **Binary Tree**
+### **Backtracking**
 
-|  Name   | LeetCode  | Solution |
-|  :-----| :----:  | :----: |
-| 1. Binary Tree Level Order Traversal  | [Leetcode](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/0102.cpp) |
-| 2. Binary Tree Right Side View | [Leetcode](https://leetcode.com/problems/binary-tree-right-side-view/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/0199.cpp) |
-| 3. Construct Binary Tree from Preorder and Inorder Traversal | [Leetcode](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/0105.cpp) |
+| Question | Solution |
+| :- | -: |
+| 1. [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/0473.cpp) |
 
-## **DP**
+### **Dynamic Programing**
 
-|  Name   | LeetCode  | Solution |
-|  :-----| :----:  | :----: |
-| 1. Regular Expression Matching | [Leetcode](https://leetcode.com/problems/regular-expression-matching/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/0010.cpp) |
+| Question | Solution |
+| :- | -: |
+| 1. [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/0010.cpp) |
