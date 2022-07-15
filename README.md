@@ -1,21 +1,19 @@
 # **notes**
 
-## ***Data Structures***
+## **Content**
 
-- [Balanced Tree](https://github.com/davidtsai0720/notes/blob/main/datastructures/BalancedTree)
+- [Algorithm](https://github.com/davidtsai0720/notes/tree/main/algorithm)
+- [Data Structure](https://github.com/davidtsai0720/notes/tree/main/datastructure)
+- [Design Pattern](https://github.com/davidtsai0720/notes/tree/main/designpattern)
+- [LeetCode](https://github.com/davidtsai0720/notes/tree/main/leetcode)
 
-  - [AVL Tree](https://github.com/davidtsai0720/notes/blob/main/datastructures/BalancedTree/AVLTree.cpp)
-  - [Red Black Tree](https://github.com/davidtsai0720/notes/blob/main/datastructures/BalancedTree/RedBlackTree.cpp)
+## **Run Unit Test**
 
-## ***Others***
+```sh
+> g++ fileName.cpp -lgtest -lpthread -o result.out && ./result.out
+```
 
-- ***Exec Unit Test***
+## **Reference Link**
 
-  ```sh
-  g++ fileName.cpp -lgtest -lpthread -o result.out
-  ./result.out
-  ```
-
-- ***Link***
-  - [algorithm](https://github.com/williamfiset/Algorithms)
-  - [awesome-go](https://github.com/avelino/awesome-go)
+- [algorithm](https://github.com/williamfiset/Algorithms)
+- [awesome-go](https://github.com/avelino/awesome-go)
