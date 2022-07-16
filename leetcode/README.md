@@ -33,3 +33,4 @@
 | :- | -: |
 | 1. [Regular Expression Matching](https://leetcode.com/problems/regular-expression-matching/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/0010.cpp) |
 | 2. [Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/0576.cpp) |
+| 3. [Coin Change](https://leetcode.com/problems/coin-change/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/0322.cpp) |
