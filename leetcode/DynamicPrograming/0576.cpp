@@ -29,8 +29,8 @@ int Solution::findPaths(int m, int n, int k, int x, int y) {
 
 TEST(TestFindPathsSuite, TestFindPaths) {
     Solution solution = Solution();
-    EXPECT_EQ(solution.findPaths(2,2,2,0,0), 6);
-    EXPECT_EQ(solution.findPaths(1,3,3,0,1), 12);
+    ASSERT_EQ(solution.findPaths(2,2,2,0,0), 6);
+    ASSERT_EQ(solution.findPaths(1,3,3,0,1), 12);
 }
 
 int main(int argc, char **argv) {

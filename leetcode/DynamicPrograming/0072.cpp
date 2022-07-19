@@ -30,8 +30,8 @@ int Solution::minDistance(std::string s1, std::string s2) {
 
 TEST(TestMinDistanceSuite, TestMinDistance) {
     Solution solution = Solution();
-    EXPECT_EQ(solution.minDistance("horse", "ros"), 3);
-    EXPECT_EQ(solution.minDistance("intention", "execution"), 5);
+    ASSERT_EQ(solution.minDistance("horse", "ros"), 3);
+    ASSERT_EQ(solution.minDistance("intention", "execution"), 5);
 }
 
 int main(int argc, char **argv) {

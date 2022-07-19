@@ -37,3 +37,4 @@
 | 4. [K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/) | TODO |
 | 5. [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/0118.cpp) |
 | 6. [Edit Distance](https://leetcode.com/problems/edit-distance/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/0072.cpp) |
+| 7. [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/0044.cpp) |
