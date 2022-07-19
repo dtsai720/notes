@@ -1,4 +1,3 @@
-#include <vector>
 #include <string>
 #include <gtest/gtest.h>
 
@@ -12,8 +11,7 @@ bool Solution::isMatch(std::string s, std::string p) {
     s = ' ' + s;
     const int m = p.length();
     const int n = s.length();
-    
-    std::vector<std::vector<bool>> dp(m, std::vector<bool>(n));
+    bool dp[m][n];
     dp[0][0] = true;
 
     for (int i = 1; i < m; i++) {
