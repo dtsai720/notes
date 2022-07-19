@@ -5,6 +5,7 @@
 - [Depth First Search](#depth-first-search)
 - [Binary Tree](#binary-tree)
 - [Backtracking](#backtracking)
+- [Greedy](#greedy)
 - [Dynamic Programing](#dynamic-programing)
 
 ### **Depth First Search**
@@ -26,6 +27,12 @@
 | Question | Solution |
 | :- | :- |
 | 1. [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Backtracking/0473.cpp) |
+
+### **Greedy**
+
+| Question | Solution |
+| :- | :- |
+| 1. [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Greedy/0053.cpp) |
 
 ### **Dynamic Programing**
 
