@@ -35,3 +35,4 @@
 | 2. [Out of Boundary Paths](https://leetcode.com/problems/out-of-boundary-paths/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/0576.cpp) |
 | 3. [Coin Change](https://leetcode.com/problems/coin-change/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/0322.cpp) |
 | 4. [K Inverse Pairs Array](https://leetcode.com/problems/k-inverse-pairs-array/) | TODO |
+| 5. [Pascal's Triangle](https://leetcode.com/problems/pascals-triangle/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/0118.cpp) |
