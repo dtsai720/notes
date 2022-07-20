@@ -2,11 +2,18 @@
 
 ## **Content**
 
+- [String](#string)
 - [Depth First Search](#depth-first-search)
 - [Binary Tree](#binary-tree)
 - [Backtracking](#backtracking)
 - [Greedy](#greedy)
 - [Dynamic Programing](#dynamic-programing)
+
+### **String**
+
+| Question | Solution |
+| :- | :- |
+| 1. [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/String/0792.cpp) |
 
 ### **Depth First Search**
 
