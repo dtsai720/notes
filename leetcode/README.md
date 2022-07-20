@@ -4,7 +4,7 @@
 
 - [String](#string)
 - [Depth First Search](#depth-first-search)
-- [Binary Tree](#binary-tree)
+- [Tree](#tree)
 - [Backtracking](#backtracking)
 - [Greedy](#greedy)
 - [Dynamic Programing](#dynamic-programing)
@@ -21,13 +21,14 @@
 | :- | :- |
 | 1. [Max Area of Island](https://leetcode.com/problems/max-area-of-island/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DepthFirstSearch/0695.cpp) |
 
-### **Binary Tree**
+### **Tree**
 
 | Question | Solution |
 | :- | :- |
-| 1. [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/BinaryTree/0102.cpp) |
-| 2. [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/BinaryTree/0199.cpp) |
-| 3. [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/BinaryTree/0105.cpp) |
+| 1. [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Tree/0102.cpp) |
+| 2. [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Tree/0199.cpp) |
+| 3. [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Tree/0105.cpp) |
+| 4. [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Tree/0538.cpp) |
 
 ### **Backtracking**
 
