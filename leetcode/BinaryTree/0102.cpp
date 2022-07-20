@@ -56,25 +56,15 @@ TEST(TestLevelOrderSuite, TestLevelOrder) {
     Solution solution = Solution();
     std::vector<std::vector<int>> want{{3},{9,20},{15,7}};
     std::vector<std::vector<int>> result = solution.levelOrder(node);
-    ASSERT_EQ(want.size(), result.size());
-    for (int i = 0; i < want.size(); i++) {
-        ASSERT_EQ(want[i].size(), result[i].size());
-        for (int j = 0; j < want[i].size(); j++)
-            EXPECT_EQ(want[i][j], result[i][j]);
-    }
+    ASSERT_EQ(want, result);
     free(node);
 }
 
 TEST(TestLevelOrderSuite, TestLevelOrderNullptr) {
     Solution solution = Solution();
-    std::vector<std::vector<int>> want{};
+    std::vector<std::vector<int>> want;
     std::vector<std::vector<int>> result = solution.levelOrder(nullptr);
-    ASSERT_EQ(want.size(), result.size());
-    for (int i = 0; i < want.size(); i++) {
-        ASSERT_EQ(want[i].size(), result[i].size());
-        for (int j = 0; j < want[i].size(); j++)
-            EXPECT_EQ(want[i][j], result[i][j]);
-    }
+    ASSERT_EQ(want, result);
 }
 
 int main(int argc, char **argv) {

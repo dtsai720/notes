@@ -88,14 +88,8 @@ TEST(TestBuildTreeSuite, TestBuildTree) {
     std::vector<int> wantPreorder = Preorder(node);
     std::vector<int> wantInorder = Inorder(node);
 
-    ASSERT_EQ(wantPreorder.size(), preorder.size());
-    ASSERT_EQ(wantInorder.size(), inorder.size());
-
-    for (int i = 0; i < preorder.size(); i++) {
-        EXPECT_EQ(wantPreorder[i], preorder[i]);
-        EXPECT_EQ(wantInorder[i], inorder[i]);
-    }
-
+    ASSERT_EQ(wantPreorder, preorder);
+    ASSERT_EQ(wantInorder, inorder);
     free(node);
 }
 

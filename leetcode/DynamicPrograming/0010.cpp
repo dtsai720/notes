@@ -29,9 +29,9 @@ bool Solution::isMatch(std::string s, std::string p) {
 
 TEST(TestIsMatchSuite, TestIsMatch) {
     Solution solution = Solution();
-    EXPECT_FALSE(solution.isMatch("aa", "a"));
-    EXPECT_TRUE(solution.isMatch("aa", "a*"));
-    EXPECT_TRUE(solution.isMatch("ab", ".*"));
+    ASSERT_FALSE(solution.isMatch("aa", "a"));
+    ASSERT_TRUE(solution.isMatch("aa", "a*"));
+    ASSERT_TRUE(solution.isMatch("ab", ".*"));
 }
 
 int main(int argc, char **argv) {

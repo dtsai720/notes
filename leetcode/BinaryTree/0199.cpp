@@ -54,20 +54,16 @@ TEST(TestRightSideViewSuite, TestRightSideViewNormal) {
     std::vector<int> want{1, 3, 4};
     std::vector<int> result = solution.rightSideView(node);
 
-    ASSERT_EQ(want.size(), result.size());
-    for (int i = 0; i < want.size(); i++)
-        EXPECT_EQ(want[i], result[i]);
+    ASSERT_EQ(want, result);
     free(node);
 }
 
 TEST(TestRightSideViewSuite, TestRightSideViewNullptr) {
     Solution solution = Solution();
-    std::vector<int> want{};
+    std::vector<int> want;
     std::vector<int> result = solution.rightSideView(nullptr);
 
-    ASSERT_EQ(want.size(), result.size());
-    for (int i = 0; i < want.size(); i++)
-        EXPECT_EQ(want[i], result[i]);
+    ASSERT_EQ(want, result);
 }
 
 int main(int argc, char **argv) {

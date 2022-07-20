@@ -43,10 +43,10 @@ TEST(TestMaxAreaOfIslandSuite, TestMaxAreaOfIsland) {
         {0,0,0,0,0,0,0,1,1,1,0,0,0},
         {0,0,0,0,0,0,0,1,1,0,0,0,0},
     };
-    EXPECT_EQ(solution.maxAreaOfIsland(six), 6);
+    ASSERT_EQ(solution.maxAreaOfIsland(six), 6);
 
     std::vector<std::vector<int>> zero{{0,0,0,0,0,0,0,0}};
-    EXPECT_EQ(solution.maxAreaOfIsland(zero), 0);
+    ASSERT_EQ(solution.maxAreaOfIsland(zero), 0);
 }
 
 int main(int argc, char **argv) {
