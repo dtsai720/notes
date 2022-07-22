@@ -2,6 +2,7 @@
 
 ## **Content**
 
+- [Array](#array)
 - [String](#string)
 - [Linked List](#linked-list)
 - [Depth First Search](#depth-first-search)
@@ -9,6 +10,12 @@
 - [Backtracking](#backtracking)
 - [Greedy](#greedy)
 - [Dynamic Programing](#dynamic-programing)
+
+### **Array**
+
+| Question | Solution |
+| :- | :- |
+| 1. [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Array/2161.cpp) |
 
 ### **String**
 
