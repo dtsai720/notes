@@ -21,6 +21,7 @@
 | Question | Solution |
 | :- | :- |
 | 1. [Reverse Linked List II](https://leetcode.com/problems/reverse-linked-list-ii/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/LinkedList/0092.cpp) |
+| 2. [Partition List](https://leetcode.com/problems/partition-list/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/LinkedList/0086.cpp) |
 
 ### **Depth First Search**
 
