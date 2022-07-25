@@ -17,6 +17,7 @@
 | :- | :- |
 | 1. [Partition Array According to Given Pivot](https://leetcode.com/problems/partition-array-according-to-given-pivot/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Array/2161.cpp) |
 | 2. [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Array/0240.cpp) |
+| 3. [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Array/0034.cpp) |
 
 ### **String**
 
