@@ -46,6 +46,7 @@
 | 2. [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Tree/0199.cpp) |
 | 3. [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Tree/0105.cpp) |
 | 4. [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Tree/0538.cpp) |
+| 5. [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Tree/0236.cpp) |
 
 ### **Backtracking**
 
