@@ -4,6 +4,7 @@
 
 - [Array](#array)
 - [String](#string)
+- [Math](#math)
 - [Linked List](#linked-list)
 - [Depth First Search](#depth-first-search)
 - [Tree](#tree)
@@ -24,6 +25,13 @@
 | Question | Solution |
 | :- | :- |
 | 1. [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/String/0792.cpp) |
+| 2. [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/String/0242.cpp) |
+
+### **Math**
+
+| Question | Solution |
+| :- | :- |
+| 1. [Count Primes](https://leetcode.com/problems/count-primes/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Math/0204.cpp) |
 
 ### **Linked List**
 
