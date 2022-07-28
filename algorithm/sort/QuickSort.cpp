@@ -1,6 +1,5 @@
 #include <vector>
 #include <algorithm>
-#include <iostream>
 #include <gtest/gtest.h>
 
 int Partition(std::vector<int> &nums, int start, int end) {
