@@ -27,6 +27,7 @@
 | :- | :- |
 | 1. [Number of Matching Subsequences](https://leetcode.com/problems/number-of-matching-subsequences/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/String/0792.cpp) |
 | 2. [Valid Anagram](https://leetcode.com/problems/valid-anagram/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/String/0242.cpp) |
+| 3. [Find and Replace Pattern](https://leetcode.com/problems/find-and-replace-pattern/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/String/0890.cpp) |
 
 ### **Math**
 
