@@ -4,33 +4,34 @@
 
 class Solution {
 private:
-    bool isSubset(std::string &word, int *array);
+    int wordset[26];
+    bool isSubset(std::string &word);
 public:
     std::vector<std::string> wordSubsets(std::vector<std::string>& words1, std::vector<std::string>& words2);
 };
 
-bool Solution::isSubset(std::string &word, int *array) {
+bool Solution::isSubset(std::string &word) {
     int temp[26] = {0};
     for (char &c: word)
         temp[c-'a']++;
     for (int i = 0; i < 26; i++)
-        if (array[i] > temp[i]) return false;
+        if (this->wordset[i] > temp[i]) return false;
     return true;
 }
 
 std::vector<std::string> Solution::wordSubsets(std::vector<std::string>& words1, std::vector<std::string>& words2) {
-    int array[26] = {0};
+    memset(this->wordset, 0, sizeof(this->wordset));
     for (std::string &word: words2) {
         int temp[26] = {0};
         for (char &c: word)
             temp[c-'a']++;
         for (int i = 0; i < 26; i++)
-            array[i] = std::max(array[i], temp[i]);
+            this->wordset[i] = std::max(this->wordset[i], temp[i]);
     }
     
     std::vector<std::string> result;
     for (std::string word: words1)
-        if (this->isSubset(word, array))
+        if (this->isSubset(word))
             result.push_back(word);
     return result;
 }
