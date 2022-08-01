@@ -85,3 +85,4 @@
 | 7. [Wildcard Matching](https://leetcode.com/problems/wildcard-matching/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/0044.cpp) |
 | 8. [Word Break](https://leetcode.com/problems/word-break/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/0139.cpp) |
 | 9. [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/0188.cpp) |
+| 10. [Unique Paths](https://leetcode.com/problems/unique-paths/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/0062.cpp) |
