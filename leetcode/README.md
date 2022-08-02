@@ -20,6 +20,7 @@
 | 2. [Search a 2D Matrix II](https://leetcode.com/problems/search-a-2d-matrix-ii/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Array/0240.cpp) |
 | 3. [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Array/0034.cpp) |
 | 4. [Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Array/2342.cpp) |
+| 5. [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Array/0378.cpp) |
 
 ### **String**
 
@@ -86,3 +87,4 @@
 | 8. [Word Break](https://leetcode.com/problems/word-break/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/0139.cpp) |
 | 9. [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/0188.cpp) |
 | 10. [Unique Paths](https://leetcode.com/problems/unique-paths/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/0062.cpp) |
+| 11. [2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/0650.cpp) |
