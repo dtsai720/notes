@@ -36,6 +36,7 @@
 | Question | Solution |
 | :- | :- |
 | 1. [Count Primes](https://leetcode.com/problems/count-primes/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Math/0204.cpp) |
+| 2. [Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Math/2169.cpp) |
 
 ### **Linked List**
 
