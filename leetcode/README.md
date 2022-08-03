@@ -21,6 +21,7 @@
 | 3. [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Array/0034.cpp) |
 | 4. [Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Array/2342.cpp) |
 | 5. [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Array/0378.cpp) |
+| 6. [Single Number III](https://leetcode.com/problems/single-number-iii/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Array/0260.cpp) |
 
 ### **String**
 
