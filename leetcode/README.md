@@ -37,6 +37,7 @@
 | :- | :- |
 | 1. [Count Primes](https://leetcode.com/problems/count-primes/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Math/0204.cpp) |
 | 2. [Count Operations to Obtain Zero](https://leetcode.com/problems/count-operations-to-obtain-zero/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Math/2169.cpp) |
+| 3. [Number of Zero-Filled Subarrays](https://leetcode.com/problems/number-of-zero-filled-subarrays/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Math/2348.cpp) |
 
 ### **Linked List**
 
@@ -89,3 +90,4 @@
 | 9. [Best Time to Buy and Sell Stock IV](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-iv/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/0188.cpp) |
 | 10. [Unique Paths](https://leetcode.com/problems/unique-paths/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/0062.cpp) |
 | 11. [2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/0650.cpp) |
+| 12. [Count Number of Texts](https://leetcode.com/problems/count-number-of-texts/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/2266.cpp) |
