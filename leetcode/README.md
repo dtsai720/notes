@@ -93,3 +93,4 @@
 | 11. [2 Keys Keyboard](https://leetcode.com/problems/2-keys-keyboard/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/0650.cpp) |
 | 12. [Count Number of Texts](https://leetcode.com/problems/count-number-of-texts/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/2266.cpp) |
 | 13. [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/0377.cpp) |
+| 14. [Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/1220.cpp)
