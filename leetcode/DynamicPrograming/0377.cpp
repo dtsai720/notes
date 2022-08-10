@@ -1,5 +1,4 @@
 #include <vector>
-#include <iostream>
 #include <gtest/gtest.h>
 
 class Solution {

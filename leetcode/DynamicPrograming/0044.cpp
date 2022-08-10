@@ -1,6 +1,6 @@
 #include <string>
 #include <gtest/gtest.h>
-#include <iostream>
+
 class Solution {
 public:
     bool isMatch(std::string s, std::string p);

@@ -22,6 +22,7 @@
 | 4. [Max Sum of a Pair With Equal Sum of Digits](https://leetcode.com/problems/max-sum-of-a-pair-with-equal-sum-of-digits/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Array/2342.cpp) |
 | 5. [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Array/0378.cpp) |
 | 6. [Single Number III](https://leetcode.com/problems/single-number-iii/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Array/0260.cpp) |
+| 7. [Query Kth Smallest Trimmed Number](https://leetcode.com/problems/query-kth-smallest-trimmed-number/submissions/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Array/2343.cpp) |
 
 ### **String**
 
@@ -63,6 +64,7 @@
 | 4. [Convert BST to Greater Tree](https://leetcode.com/problems/convert-bst-to-greater-tree/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Tree/0538.cpp) |
 | 5. [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Tree/0236.cpp) |
 | 6. [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Tree/0114.cpp) |
+| 7. [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Tree/0108.cpp) |
 
 ### **Backtracking**
 
