@@ -23,6 +23,7 @@
 | 5. [Kth Smallest Element in a Sorted Matrix](https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Array/0378.cpp) |
 | 6. [Single Number III](https://leetcode.com/problems/single-number-iii/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Array/0260.cpp) |
 | 7. [Query Kth Smallest Trimmed Number](https://leetcode.com/problems/query-kth-smallest-trimmed-number/submissions/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Array/2343.cpp) |
+| 8. [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Array/1338.cpp) |
 
 ### **String**
 
