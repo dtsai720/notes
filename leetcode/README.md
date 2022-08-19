@@ -24,6 +24,7 @@
 | 6. [Single Number III](https://leetcode.com/problems/single-number-iii/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Array/0260.cpp) |
 | 7. [Query Kth Smallest Trimmed Number](https://leetcode.com/problems/query-kth-smallest-trimmed-number/submissions/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Array/2343.cpp) |
 | 8. [Reduce Array Size to The Half](https://leetcode.com/problems/reduce-array-size-to-the-half/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Array/1338.cpp) |
+| 9. [Split Array into Consecutive Subsequences](https://leetcode.com/problems/split-array-into-consecutive-subsequences/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Array/0659.cpp) |
 
 ### **String**
 
