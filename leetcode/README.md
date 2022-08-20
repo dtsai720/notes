@@ -100,3 +100,4 @@
 | 13. [Combination Sum IV](https://leetcode.com/problems/combination-sum-iv/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/0377.cpp) |
 | 14. [Count Vowels Permutation](https://leetcode.com/problems/count-vowels-permutation/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/1220.cpp)
 | 15. [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/0300.cpp) |
+| 16. [Minimum Number of Refueling Stops](https://leetcode.com/problems/minimum-number-of-refueling-stops/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/DynamicPrograming/0817.cpp)
