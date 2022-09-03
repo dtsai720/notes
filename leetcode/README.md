@@ -79,6 +79,7 @@
 | Question | Solution |
 | :- | :- |
 | 1. [Matchsticks to Square](https://leetcode.com/problems/matchsticks-to-square/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Backtracking/0473.cpp) |
+| 2. [Numbers With Same Consecutive Differences](https://leetcode.com/problems/numbers-with-same-consecutive-differences/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Backtracking/0967.cpp) |
 
 ### **Greedy**
 
