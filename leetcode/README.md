@@ -73,6 +73,7 @@
 | 7. [Convert Sorted Array to Binary Search Tree](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Tree/0108.cpp) |
 | 8. [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Tree/0098.cpp) |
 | 9. [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Tree/0235.cpp) |
+| 10. [Vertical Order Traversal of a Binary Tree](https://leetcode.com/problems/vertical-order-traversal-of-a-binary-tree/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Tree/0987.cpp) |
 
 ### **Backtracking**
 
