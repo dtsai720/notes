@@ -28,6 +28,7 @@
 | 10. [Number of Islands](https://leetcode.com/problems/number-of-islands/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Array/0200.cpp) |
 | 11. [Sort the Matrix Diagonally](https://leetcode.com/problems/sort-the-matrix-diagonally/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Array/1329.cpp) |
 | 12. [Rotate Image](https://leetcode.com/problems/rotate-image/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Array/0048.cpp) |
+| 13. [Find Original Array From Doubled Array](https://leetcode.com/problems/find-original-array-from-doubled-array/) | [Solution](https://github.com/davidtsai0720/notes/blob/main/leetcode/Array/2007.cpp) |
 
 ### **String**
 
