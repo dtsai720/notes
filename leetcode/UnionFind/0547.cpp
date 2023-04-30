@@ -7,13 +7,11 @@ class Solution {
 private:
     void _union(vector<int>& array, int x, int y) {
         int a = find(array, x), b = find(array, y);
-        if (a == b) return;
-        array[a] = b;
+        if (a != b) array[a] = b;
     }
 
     int find(vector<int>& array, int x) {
-        if (array[x] == -1) return x;
-        return array[x] = find(array, array[x]);
+        return array[x] == -1? x: array[x] = find(array, array[x]);
     }
 public:
     int findCircleNum(vector<vector<int>>& isConnected) {
