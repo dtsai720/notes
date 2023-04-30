@@ -1,7 +1,5 @@
 #include <vector>
 #include <numeric>
-#include <unordered_map>
-#include <algorithm>
 #include <gtest/gtest.h>
 
 class DSU {
