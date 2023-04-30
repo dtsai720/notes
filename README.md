@@ -9,8 +9,8 @@
 
 ## **Run Unit Test**
 
-```sh
-$ g++ fileName.cpp -lgtest -lpthread -o result.out && ./result.out
+```bash
+$ g++ fileName.cpp -lgtest -lpthread -o unittest && ./unittest && rm unittest
 [==========] Running 1 test from 1 test suite.
 [----------] Global test environment set-up.
 [----------] 1 test from TestSuiteName
