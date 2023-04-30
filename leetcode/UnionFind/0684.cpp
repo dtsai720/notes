@@ -17,6 +17,7 @@ public:
     }
 
     bool Union(int x, int y) {
+        // optimized
         int a = find(x), b = find(y);
         if (a == b) return false;
         if (rank[a] > rank[b]) parent[b] = a;
