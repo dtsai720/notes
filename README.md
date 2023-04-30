@@ -2,10 +2,10 @@
 
 ## **Content**
 
-- [Algorithm](https://github.com/davidtsai0720/notes/tree/main/algorithm)
-- [Data Structure](https://github.com/davidtsai0720/notes/tree/main/datastructure)
-- [Design Pattern](https://github.com/davidtsai0720/notes/tree/main/designpattern)
-- [LeetCode](https://github.com/davidtsai0720/notes/tree/main/leetcode)
+- [Algorithm](https://github.com/dtsai720/notes/tree/main/algorithm)
+- [Data Structure](https://github.com/dtsai720/notes/tree/main/datastructure)
+- [Design Pattern](https://github.com/dtsai720/notes/tree/main/designpattern)
+- [LeetCode](https://github.com/dtsai720/notes/tree/main/leetcode)
 
 ## **Run Unit Test**
 
