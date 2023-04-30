@@ -117,5 +117,5 @@
 
 | Question | Solution |
 | :- | :- |
-| 1. [Maximum Subarray](https://leetcode.com/problems/number-of-provinces/) | [Solution](https://github.com/dtsai720/notes/blob/main/leetcode/UnionFind/0547.cpp) |
-
+| 1. [Number of Provinces](https://leetcode.com/problems/number-of-provinces/) | [Solution](https://github.com/dtsai720/notes/blob/main/leetcode/UnionFind/0547.cpp) |
+| 2. [Redundant Connection](https://leetcode.com/problems/redundant-connection/) | [Solution](https://github.com/dtsai720/notes/blob/main/leetcode/UnionFind/0684.cpp) |
